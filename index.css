@@ -78,19 +78,25 @@ main {
   border-radius: 15px;
 }
 
-.card div:nth-of-type(1) {
+.image-container {
   border-radius: inherit;
 }
 
-.card div:nth-of-type(1) img {
+.image-container img {
   border-radius: inherit;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 
-.card div:nth-of-type(2) {
+.info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.info-container p {
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
 }
