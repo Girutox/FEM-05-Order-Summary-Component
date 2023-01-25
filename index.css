@@ -61,6 +61,10 @@ body {
 
 main {
   flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -68,4 +72,12 @@ main {
   height: 500px;
 
   background-color: white;
+
+  border-radius: 15px;
+}
+
+.card img {
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
