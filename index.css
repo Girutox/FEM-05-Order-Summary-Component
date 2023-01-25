@@ -111,3 +111,10 @@ main {
 
   margin-bottom: 0.8rem;
 }
+
+.plan-details {
+  background-color: hsl(225, 100%, 98%);
+  width: 100%;
+  border-radius: 13px;
+  padding: 1rem;
+}
